@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "rzQ7ipcJXemdQ5vXsrZZmr4gRSDNvcLTulF8+FU/LMGJIyiaAc+D1amRmG8YvfmGEa3WcMnMS25y+1Ue3CtQ6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\desafio-kipho\\src\\4-Presentation\\kipho.api.web\\kipho.api.web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gpnet\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\gpnet\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\gpnet\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\gpnet\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\gpnet\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\gpnet\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\gpnet\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
