@@ -1,20 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace kipho.api.domain.Entities
 {
-    public class products
+    public class Products : BaseEntity
     {
-        [Key]
-        public Guid? id { get; set; }
-        public DateTime? createdAt { get; set; } = DateTime.Now;
         public string? name { get; set; }
+        //[Column(TypeName = "decimal(18,2)")]
         public double? price { get; set; }
         public string? brand { get; set; }
-        public DateTime? updatedAt { get; set; }
     }
 }

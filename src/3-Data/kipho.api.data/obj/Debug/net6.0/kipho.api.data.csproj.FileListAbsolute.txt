@@ -10,3 +10,8 @@ C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.d
 C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\refint\kipho.api.data.dll
 C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.data.pdb
 C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\ref\kipho.api.data.dll
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\bin\Debug\net6.0\kipho.api.data.runtimeconfig.json
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.data.genruntimeconfig.cache
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\bin\Debug\net6.0\kipho.api.domain.dll
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\bin\Debug\net6.0\kipho.api.domain.pdb
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.data.csproj.CopyComplete

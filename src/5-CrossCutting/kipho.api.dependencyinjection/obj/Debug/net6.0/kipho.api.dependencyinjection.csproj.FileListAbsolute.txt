@@ -10,3 +10,10 @@ C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\D
 C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\refint\kipho.api.dependencyinjection.dll
 C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\kipho.api.dependencyinjection.pdb
 C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\ref\kipho.api.dependencyinjection.dll
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\bin\Debug\net6.0\kipho.api.data.dll
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\bin\Debug\net6.0\kipho.api.domain.dll
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\bin\Debug\net6.0\kipho.api.services.dll
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\bin\Debug\net6.0\kipho.api.services.pdb
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\bin\Debug\net6.0\kipho.api.data.pdb
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\bin\Debug\net6.0\kipho.api.domain.pdb
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\kipho.api.dependencyinjection.csproj.CopyComplete
