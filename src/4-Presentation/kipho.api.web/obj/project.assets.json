@@ -95,6 +95,50 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "kipho.api.data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/kipho.api.data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/kipho.api.data.dll": {}
+        }
+      },
+      "kipho.api.dependencyinjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/kipho.api.dependencyinjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/kipho.api.dependencyinjection.dll": {}
+        }
+      },
+      "kipho.api.domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/kipho.api.domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/kipho.api.domain.dll": {}
+        }
+      },
+      "kipho.api.services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "kipho.api.data": "1.0.0",
+          "kipho.api.domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/kipho.api.services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/kipho.api.services.dll": {}
+        }
       }
     }
   },
@@ -303,12 +347,35 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "kipho.api.data/1.0.0": {
+      "type": "project",
+      "path": "../../3-Data/kipho.api.data/kipho.api.data.csproj",
+      "msbuildProject": "../../3-Data/kipho.api.data/kipho.api.data.csproj"
+    },
+    "kipho.api.dependencyinjection/1.0.0": {
+      "type": "project",
+      "path": "../../5-CrossCutting/kipho.api.dependencyinjection/kipho.api.dependencyinjection.csproj",
+      "msbuildProject": "../../5-CrossCutting/kipho.api.dependencyinjection/kipho.api.dependencyinjection.csproj"
+    },
+    "kipho.api.domain/1.0.0": {
+      "type": "project",
+      "path": "../../2-Domain/kipho.api.domain/kipho.api.domain.csproj",
+      "msbuildProject": "../../2-Domain/kipho.api.domain/kipho.api.domain.csproj"
+    },
+    "kipho.api.services/1.0.0": {
+      "type": "project",
+      "path": "../../1-Aplication/kipho.api.services/kipho.api.services.csproj",
+      "msbuildProject": "../../1-Aplication/kipho.api.services/kipho.api.services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "kipho.api.dependencyinjection >= 1.0.0",
+      "kipho.api.domain >= 1.0.0",
+      "kipho.api.services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -342,7 +409,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\desafio-kipho\\src\\1-Aplication\\kipho.api.services\\kipho.api.services.csproj": {
+              "projectPath": "C:\\Projetos\\desafio-kipho\\src\\1-Aplication\\kipho.api.services\\kipho.api.services.csproj"
+            },
+            "C:\\Projetos\\desafio-kipho\\src\\2-Domain\\kipho.api.domain\\kipho.api.domain.csproj": {
+              "projectPath": "C:\\Projetos\\desafio-kipho\\src\\2-Domain\\kipho.api.domain\\kipho.api.domain.csproj"
+            },
+            "C:\\Projetos\\desafio-kipho\\src\\5-CrossCutting\\kipho.api.dependencyinjection\\kipho.api.dependencyinjection.csproj": {
+              "projectPath": "C:\\Projetos\\desafio-kipho\\src\\5-CrossCutting\\kipho.api.dependencyinjection\\kipho.api.dependencyinjection.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

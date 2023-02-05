@@ -1802,6 +1802,40 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "kipho.api.data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/kipho.api.data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/kipho.api.data.dll": {}
+        }
+      },
+      "kipho.api.domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/kipho.api.domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/kipho.api.domain.dll": {}
+        }
+      },
+      "kipho.api.services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "kipho.api.data": "1.0.0",
+          "kipho.api.domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/kipho.api.services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/kipho.api.services.dll": {}
+        }
       }
     }
   },
@@ -6098,12 +6132,29 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "kipho.api.data/1.0.0": {
+      "type": "project",
+      "path": "../../3-Data/kipho.api.data/kipho.api.data.csproj",
+      "msbuildProject": "../../3-Data/kipho.api.data/kipho.api.data.csproj"
+    },
+    "kipho.api.domain/1.0.0": {
+      "type": "project",
+      "path": "../../2-Domain/kipho.api.domain/kipho.api.domain.csproj",
+      "msbuildProject": "../../2-Domain/kipho.api.domain/kipho.api.domain.csproj"
+    },
+    "kipho.api.services/1.0.0": {
+      "type": "project",
+      "path": "../../1-Aplication/kipho.api.services/kipho.api.services.csproj",
+      "msbuildProject": "../../1-Aplication/kipho.api.services/kipho.api.services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "coverlet.collector >= 3.1.2",
+      "kipho.api.domain >= 1.0.0",
+      "kipho.api.services >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
@@ -6139,7 +6190,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\desafio-kipho\\src\\1-Aplication\\kipho.api.services\\kipho.api.services.csproj": {
+              "projectPath": "C:\\Projetos\\desafio-kipho\\src\\1-Aplication\\kipho.api.services\\kipho.api.services.csproj"
+            },
+            "C:\\Projetos\\desafio-kipho\\src\\2-Domain\\kipho.api.domain\\kipho.api.domain.csproj": {
+              "projectPath": "C:\\Projetos\\desafio-kipho\\src\\2-Domain\\kipho.api.domain\\kipho.api.domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

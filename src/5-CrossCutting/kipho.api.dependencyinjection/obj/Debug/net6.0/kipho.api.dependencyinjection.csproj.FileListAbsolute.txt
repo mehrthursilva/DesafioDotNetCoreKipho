@@ -1,0 +1,12 @@
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\bin\Debug\net6.0\kipho.api.dependencyinjection.deps.json
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\bin\Debug\net6.0\kipho.api.dependencyinjection.dll
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\bin\Debug\net6.0\kipho.api.dependencyinjection.pdb
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\kipho.api.dependencyinjection.csproj.AssemblyReference.cache
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\kipho.api.dependencyinjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\kipho.api.dependencyinjection.AssemblyInfoInputs.cache
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\kipho.api.dependencyinjection.AssemblyInfo.cs
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\kipho.api.dependencyinjection.csproj.CoreCompileInputs.cache
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\kipho.api.dependencyinjection.dll
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\refint\kipho.api.dependencyinjection.dll
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\kipho.api.dependencyinjection.pdb
+C:\Projetos\desafio-kipho\src\5-CrossCutting\kipho.api.dependencyinjection\obj\Debug\net6.0\ref\kipho.api.dependencyinjection.dll

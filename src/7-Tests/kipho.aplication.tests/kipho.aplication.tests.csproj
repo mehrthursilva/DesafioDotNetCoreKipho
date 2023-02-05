@@ -21,4 +21,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\1-Aplication\kipho.api.services\kipho.api.services.csproj" />
+    <ProjectReference Include="..\..\2-Domain\kipho.api.domain\kipho.api.domain.csproj" />
+  </ItemGroup>
+
 </Project>

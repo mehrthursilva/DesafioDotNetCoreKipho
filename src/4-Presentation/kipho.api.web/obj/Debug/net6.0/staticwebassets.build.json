@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AWNwQdkeM21xxS1Hb8p6Uu/1DmqtxaDhhYeMWQ5cC58=",
+  "Source": "kipho.api.web",
+  "BasePath": "_content/kipho.api.web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

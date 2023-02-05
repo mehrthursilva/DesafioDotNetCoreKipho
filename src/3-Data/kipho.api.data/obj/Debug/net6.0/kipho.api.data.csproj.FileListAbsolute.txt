@@ -1,0 +1,12 @@
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\bin\Debug\net6.0\kipho.api.data.deps.json
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\bin\Debug\net6.0\kipho.api.data.dll
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\bin\Debug\net6.0\kipho.api.data.pdb
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.data.csproj.AssemblyReference.cache
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.data.AssemblyInfoInputs.cache
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.data.AssemblyInfo.cs
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.data.csproj.CoreCompileInputs.cache
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.data.dll
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\refint\kipho.api.data.dll
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\kipho.api.data.pdb
+C:\Projetos\desafio-kipho\src\3-Data\kipho.api.data\obj\Debug\net6.0\ref\kipho.api.data.dll

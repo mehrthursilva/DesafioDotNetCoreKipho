@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "kipho.api.data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/kipho.api.data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/kipho.api.data.dll": {}
+        }
+      },
+      "kipho.api.domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/kipho.api.domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/kipho.api.domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "kipho.api.data/1.0.0": {
+      "type": "project",
+      "path": "../../3-Data/kipho.api.data/kipho.api.data.csproj",
+      "msbuildProject": "../../3-Data/kipho.api.data/kipho.api.data.csproj"
+    },
+    "kipho.api.domain/1.0.0": {
+      "type": "project",
+      "path": "../../2-Domain/kipho.api.domain/kipho.api.domain.csproj",
+      "msbuildProject": "../../2-Domain/kipho.api.domain/kipho.api.domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "kipho.api.data >= 1.0.0",
+      "kipho.api.domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\gpnet\\.nuget\\packages\\": {},
@@ -38,7 +73,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\desafio-kipho\\src\\2-Domain\\kipho.api.domain\\kipho.api.domain.csproj": {
+              "projectPath": "C:\\Projetos\\desafio-kipho\\src\\2-Domain\\kipho.api.domain\\kipho.api.domain.csproj"
+            },
+            "C:\\Projetos\\desafio-kipho\\src\\3-Data\\kipho.api.data\\kipho.api.data.csproj": {
+              "projectPath": "C:\\Projetos\\desafio-kipho\\src\\3-Data\\kipho.api.data\\kipho.api.data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

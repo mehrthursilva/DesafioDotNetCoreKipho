@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "kipho.api.services/1.0.0": {
+        "dependencies": {
+          "kipho.api.data": "1.0.0",
+          "kipho.api.domain": "1.0.0"
+        },
+        "runtime": {
+          "kipho.api.services.dll": {}
+        }
+      },
+      "kipho.api.data/1.0.0": {
+        "runtime": {
+          "kipho.api.data.dll": {}
+        }
+      },
+      "kipho.api.domain/1.0.0": {
+        "runtime": {
+          "kipho.api.domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "kipho.api.services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "kipho.api.data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "kipho.api.domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
