@@ -15,5 +15,6 @@ namespace kipho.api.domain.Interfaces
         Task<T> SelectAsync(Guid id);
         Task<IEnumerable<T>> SelectAsync();
         Task<bool> ExistAsync(Guid id);
+        Task<T> SelectAsyncByCode(string id);
     }
 }

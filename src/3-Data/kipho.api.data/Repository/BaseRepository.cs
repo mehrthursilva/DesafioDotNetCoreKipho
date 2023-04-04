@@ -81,6 +81,21 @@ namespace kipho.api.data.Repository
             }
         }
 
+
+        public async Task<T> SelectAsyncByCode(string id)
+        {
+            try
+            {
+                return await _dataset.SingleOrDefaultAsync(p => p.barcodeNumber.Equals(id));
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+
         public async Task<IEnumerable<T>> SelectAsync()
         {
             try

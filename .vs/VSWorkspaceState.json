@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\1-Aplication",
+    "\\src\\1-Aplication\\kipho.api.services"
   ],
-  "SelectedNode": "\\kipho.api.product.sln",
+  "SelectedNode": "\\src\\1-Aplication\\kipho.api.services\\ProductsServices.cs",
   "PreviewInSolutionExplorer": false
 }

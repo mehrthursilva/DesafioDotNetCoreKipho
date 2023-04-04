@@ -15,12 +15,12 @@ builder.Services.AddSwaggerGen(c =>
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Teste para Kipho",
-                    Description = "Arquitetura DDD",
+                    Title = "Fenys",
+                    Description = "Importação de planilhas",
                     TermsOfService = new Uri("https://www.linkedin.com/in/mehrthur-silva-2528161b1"),
                     Contact = new OpenApiContact
                     {
-                        Name = "Mehrthur Luís Lemos da Silva",
+                        Name = "Side By Side",
                         Email = "mehrthurfordevtools@gmail.com",
                         Url = new Uri("https://www.linkedin.com/in/mehrthur-silva-2528161b1")
                     },
@@ -40,7 +40,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Product kipho com AspNetCore 6");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Products ");
     });
 }
 

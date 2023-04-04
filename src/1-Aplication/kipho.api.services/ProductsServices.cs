@@ -27,6 +27,11 @@ namespace kipho.api.services
             return await _repository.SelectAsync(id);
         }
 
+        public async Task<Products> GetbyBarcode(string id) 
+        {
+            return await _repository.SelectAsyncByCode(id);
+        }
+
         public async Task<IEnumerable<Products>> GetAll()
         {
             return await _repository.SelectAsync();

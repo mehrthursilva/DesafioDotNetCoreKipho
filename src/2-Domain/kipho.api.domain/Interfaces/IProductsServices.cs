@@ -14,5 +14,6 @@ namespace kipho.api.domain.Interfaces
         Task<Products> Post(Products user);
         Task<Products> Put(Products user);
         Task<bool> Delete(Guid id);
+        Task<Products> GetbyBarcode(string id);
     }
 }

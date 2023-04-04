@@ -9,10 +9,11 @@ using System.Threading.Tasks;
 namespace kipho.api.domain.Entities
 {
     public class Products : BaseEntity
-    {
+    {      
         public string? name { get; set; }
         //[Column(TypeName = "decimal(18,2)")]
-        public double? price { get; set; }
+        public float? price { get; set; }
         public string? brand { get; set; }
+        public string? description { get; set; }
     }
 }

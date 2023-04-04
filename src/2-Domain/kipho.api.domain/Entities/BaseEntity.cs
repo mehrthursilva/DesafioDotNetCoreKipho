@@ -11,7 +11,9 @@ namespace kipho.api.domain.Entities
     {
         [Key]
         public Guid? id { get; set; }
+        public int active { get; set; }
         public DateTime? createdAt { get; set; } = DateTime.Now;
         public DateTime? updatedAt { get; set; }
+        public string? barcodeNumber { get; set; }
     }
 }

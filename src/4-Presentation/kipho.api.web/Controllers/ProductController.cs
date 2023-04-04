@@ -49,8 +49,8 @@ namespace kipho.api.web.Controllers
             }
         }
 
-        [HttpPost]
-        public async Task<ActionResult> Post([FromBody] Products user)
+        [HttpGet("{barCode}")]
+        public async Task<ActionResult> GetbyBarcode(string barCode)
         {
             if (!ModelState.IsValid)
             {
@@ -58,15 +58,47 @@ namespace kipho.api.web.Controllers
             }
             try
             {
-                var result = await _productsServices.Post(user);
-                if (result != null)
+                return Ok(await _productsServices.GetbyBarcode(barCode));
+            }
+            catch (ArgumentException e)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Post([FromBody] List<Products> user) 
+        {
+            var countYes = 0;
+            var countNot = 0;
+            List<Products> produvtsWithDefects = new List<Products>();
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                for (int i=0; i < user.Count; i++) 
                 {
-                    return Created(new Uri(Url.Link("GetWithId", new { id = result.id })), result);
+                    var result = await _productsServices.Post(user[i]);
+                    if (result != null)
+                    {
+                        countYes++;
+                    }
+                    else 
+                    {
+                        countNot++;
+                        produvtsWithDefects.Add(user[i]);
+                    }
+                }             
+                if(countYes > 0 && countNot >0) 
+                {
+                    return StatusCode((int)HttpStatusCode.Created, null/*um modelo que diz quandos foram criados, quantos não puderam ser criados, e os dados dos respectivos não criados*/);
                 }
-                else
-                {
+                if (countYes < 0 && countNot > 0)
                     return BadRequest();
-                }
+
+                return StatusCode((int)HttpStatusCode.Created);            
             }
             catch (ArgumentException e)
             {
